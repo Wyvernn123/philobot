@@ -7,7 +7,10 @@ Created on Wed Dec  4 00:25:20 2019
 
 import discord
 from discord.ext import commands
-import numpy.random as rd
+import random as rd
+import asyncio
+
+
 Parole_de_Dieu = [f'Un trou, un manque, une absence, n’étant rien, imposent qu’on tourne autour, c’est-à-dire ce minimum de danse qui est déjà un style.',f'Le « petit a » par exemple, un peu comme le « ptyx » de Mallarmé, espèce de petit x universel, conviendra d’autant mieux qu’il n’existe pas dans la langue naturelle.',f'Le minimum alors poussé au maximum des figures dessinera plus nettement la chose qui le suscite, comme c’est l’énormité bourdonnante de l’essaim qui conduit l’oeil au faible pédoncule auquel il se trouve appendu.',f'La Musique sans les Lettres se présente comme très subtil nuage : seules, elles, une monnaie si courante.']
 
 client = commands.Bot(command_prefix = '>')
@@ -22,4 +25,5 @@ async def illumination(ctx):
     await ctx.send(rd.choice(Parole_de_Dieu))
     await ctx.send(emote(14))
 
-client.run('NjUxNTUzMjU2MDEwNDE2MTQw.XecAKw.IOxkmI4npN4OkA-a2TKJyAcfHwU')
+
+client.run('NjUxNTUzMjU2MDEwNDE2MTQw.XefFmw.YGvMKu6t5ITIstMwFP3kYlW7wlY')
