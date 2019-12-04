@@ -5,9 +5,8 @@ Created on Wed Dec  4 00:25:20 2019
 @author: alexandre
 """
 import discord
-from discord.ext import commands
 
-client = commands.Bot(command_prefix = '>')
+client = discord.ext.commands.Bot(command_prefix = '>')
 
 @client.event
 async def on_ready():
