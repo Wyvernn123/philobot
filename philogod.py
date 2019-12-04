@@ -23,4 +23,4 @@ async def illumination(ctx):
     await ctx.send(emote(14))
 
 
-client.run('NjUxNTUzMjU2MDEwNDE2MTQw.XefJWg.QUwYTePgtWweRxmotgZQt3pHNDY')
+client.run('NjUxNTUzMjU2MDEwNDE2MTQw.XefKjw.9lgWbpNQC5byTbuoP_vciZqt3Ps')
