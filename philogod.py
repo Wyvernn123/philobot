@@ -5,6 +5,7 @@ Created on Wed Dec  4 00:25:20 2019
 @author: alexandre
 """
 import discord
+import os
 from discord.ext import commands
 import numpy
 
@@ -23,4 +24,4 @@ async def illumination(ctx):
     await ctx.send(emote(14))
 
 
-client.run('NjUxNTUzMjU2MDEwNDE2MTQw.XefKjw.9lgWbpNQC5byTbuoP_vciZqt3Ps')
+client.run(os.environ['DISCORD_TOKEN'])
