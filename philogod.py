@@ -20,7 +20,7 @@ async def on_ready():
 
 @client.command()
 async def illumination(ctx):
-    await ctx.send(numpy.random.choice(Parole_de_Dieu))
+    await ctx.send('\tss'+numpy.random.choice(Parole_de_Dieu))
     await ctx.send(emote(14))
 
 
