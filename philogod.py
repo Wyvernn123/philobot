@@ -6,10 +6,10 @@ Created on Wed Dec  4 00:25:20 2019
 """
 import discord
 
-client = discord.ext.commands.Bot(command_prefix = '>')
+client = discord.Client()
 
 @client.event
 async def on_ready():
     print('Bot is ready.')
 
-client.run('NjUxNTUzMjU2MDEwNDE2MTQw.XefKjw.9lgWbpNQC5byTbuoP_vciZqt3Ps')
+client.run('NjUxNTUzMjU2MDEwNDE2MTQw.XefP8w.8A4QVWOtGJScdWokPD5KEK7BRs0')
