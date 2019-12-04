@@ -5,6 +5,7 @@ Created on Wed Dec  4 00:25:20 2019
 @author: alexandre
 """
 import discord
+import os
 
 client = discord.Client()
 
@@ -12,4 +13,4 @@ client = discord.Client()
 async def on_ready():
     print('Bot is ready.')
 
-client.run('NjUxNTUzMjU2MDEwNDE2MTQw.XefRDA.Z0s-FxMW-IGP029Sgsts2dTsmh0')
+client.run(os.environ['DISCORD_TOKEN'])
