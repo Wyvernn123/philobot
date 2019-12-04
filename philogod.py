@@ -12,4 +12,4 @@ client = discord.Client()
 async def on_ready():
     print('Bot is ready.')
 
-client.run('NjUxNTUzMjU2MDEwNDE2MTQw.XefP8w.8A4QVWOtGJScdWokPD5KEK7BRs0')
+client.run('NjUxNTUzMjU2MDEwNDE2MTQw.XefRDA.Z0s-FxMW-IGP029Sgsts2dTsmh0')
