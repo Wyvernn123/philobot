@@ -1,3 +1,3 @@
-worker : python philogod.py
+worker:philogod.py
 
 
