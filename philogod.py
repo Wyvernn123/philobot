@@ -3,14 +3,8 @@
 Created on Wed Dec  4 00:25:20 2019
 
 @author: alexandre
-"""import os
-
+"""
 import discord
-from dotenv import load_dotenv
-
-load_dotenv()
-token = os.getenv('DISCORD_TOKEN')
-
 from discord.ext import commands
 import random
 
@@ -25,8 +19,8 @@ async def on_ready():
 
 @client.command()
 async def illumination(ctx):
-    await ctx.send(choice(Parole_de_Dieu))
+    await ctx.send(random.choice(Parole_de_Dieu))
     await ctx.send(emote(14))
 
 
-client.run(token)
+client.run('NjUxNTUzMjU2MDEwNDE2MTQw.XefJWg.QUwYTePgtWweRxmotgZQt3pHNDY')
